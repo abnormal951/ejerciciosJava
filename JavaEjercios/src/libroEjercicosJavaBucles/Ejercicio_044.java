@@ -1,6 +1,5 @@
 package libroEjercicosJavaBucles;
 
-import java.util.Scanner;
 
 public class Ejercicio_044 {
 
