@@ -8,21 +8,27 @@ public class Ejercicio_047 {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Ingresa el numero a elevar");
-		int elevar=entrada.nextInt();
+		int elevarCuadrado=entrada.nextInt();
+		int elevarCubo=elevarCuadrado;
 
-		
-		for (int i = elevar; i <5000; i*=i) {
-			System.out.println(i);
-			
-		}
 	
 		int contador=0;
-		int i=0;
 		while(contador<5) {
-			System.out.println(" :"+i++);
 			contador++;
+			
+			int resCuadrado =(elevarCuadrado*=elevarCuadrado);
+			System.out.println(" :"+resCuadrado);
+
 		}
 		
+		contador=0;
+		while(contador<5) {
+			contador++;
+
+			int resCubo=elevarCubo*=elevarCubo*=elevarCubo;
+		    System.out.println(" :"+resCubo);
+		}
+
 		entrada.close();
 
 	}
