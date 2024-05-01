@@ -1,8 +1,8 @@
-package libroEjercicosJava;
+package libroEjerciciosJavaArrays;
 
 import java.util.Scanner;
 
-public class Ejercicio_50 {
+public class Ejercicio_052 {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
